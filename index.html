@@ -1,0 +1,314 @@
+<!doctype html>
+
+
+<html lang="en">
+
+<head>
+    <title>From with attachment file </title> <!-- Meta Tags -->
+
+    
+
+
+     <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+ 
+
+</head>
+
+
+<body>
+
+
+
+   
+
+<!--        responsive End-->
+
+     <!--        Nav End-->
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="from-inner">
+                <h3> Contact From with file attachment </h3>
+
+<form action="free-trail.php" enctype="multipart/form-data" method="POST">
+
+   <div class="col-sm-6">
+       <div class="form-group">
+
+           <span class="label-text"> Your Name (required)</span>
+
+      <input type="text" name="sender_name" value="" size="40" class="form-control" aria-invalid="false" />
+
+       </div>
+
+   </div>
+   <div class="col-sm-6">
+       <div class="form-group">
+           <span class="label-text">Your Email (required)</span>
+      <span>
+      <input type="email" name="sender_email" value="" size="40" class="form-control" aria-invalid="false" />
+      </span>
+
+       </div>
+   </div>
+   <div class="col-sm-6">
+       <div class="form-group">
+           <span class="label-text">Website (required)</span>
+      <span class="wpcf7-form-control-wrap url-73">
+      <input type="text" name="sender_website" value="" size="40" class="form-control" aria-invalid="false" />
+      </span>
+       </div>
+   </div>
+    <div class="col-sm-6">
+   <div class="form-group">
+
+       <span class="label-text"> Telephone (required)</span>
+
+
+      <span >
+      <input type="tel" name="phone" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" /></span>
+        </div>
+   </div>
+    <div class="col-sm-6">
+   <div class="form-group">
+
+       <span class="label-text">Company Name (required)</span>
+      <span ><input type="text" name="companyname" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" /></span>
+        </div>
+   </div>
+   <div class="col-sm-6">
+       <div class="form-group">
+           <span class="label-text">Country (required)</span>
+      <span ><input type="text" name="contry" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" /></span>
+       </div>
+   </div><br/><br/>
+   <div class="col-sm-6">
+       <div class="form-group">
+           <span class="label-text">Turnaround time (required)</span>
+      <span class="">
+         <select name="Turnaround" class="js-select2" aria-invalid="false">
+            <option value="Flexible">Flexible</option>
+            <option value="6 hr">6 hr</option>
+            <option value="12 hr">12 hr</option>
+            <option value="18 hr">18 hr</option>
+            <option value="24 hr">24 hr</option>
+            <option value="36 hr">36 hr</option>
+            <option value="48 hr">48 hr</option>
+            <option value="72 hr">72 hr</option>
+         </select>
+      </span>
+       </div>
+   </div>
+   <div class="col-sm-6">
+       <div class="form-group">
+           <span class="label-text">Format: return file as(required)</span>
+      <span >
+         <select name="Format" class="js-select2" aria-invalid="false">
+            <option value="jpeg">jpeg</option>
+            <option value="psd">psd</option>
+            <option value="tiff">tiff</option>
+            <option value="png">png</option>
+            <option value="ai">ai</option>
+            <option value="eps">eps</option>
+         </select>
+      </span>
+       </div>
+   </div>
+   <div class="col-sm-12">
+      <div class="form-group services-boc">
+          <h4>Service you require* </h4><br />
+   <span >
+   <span >
+   <span >
+   <input id="Background-Removal" type="checkbox" name="Background-Removal" value="Background Removal" />
+   <label for="Background-Removal"></label>
+       <span class="text-e"> Background Removal </span>
+   </span>
+
+   <span class="chekbox-item">
+   <input id="Clipping-path" type="checkbox" name="Clipping-path" value="Clipping path" />
+
+       <label for="Clipping-path"></label>
+       <span  class="text-e"> Clipping path </span>
+    </span>
+
+       <span class="chekbox-item">
+
+    <input id="Retouching" type="checkbox" name="Retouching" value="Retouching" />
+
+           <label for="Retouching"></label>
+           <span  class="text-e"> Retouching </span>
+
+</span>
+
+<span class="chekbox-item">
+
+<input id="Ghost-Manniquin" type="checkbox" name="Ghost-Manniquin" value="Ghost Manniquin" />
+
+    <label for="Ghost-Manniquin"></label>
+
+    <span  class="text-e">  Ghost Manniquin </span>
+
+</span>
+
+<span class="chekbox-item">
+
+<input id="Color-Enhancement" type="checkbox" name="Color-Enhancement" value="Color Enhancement" />
+    <label for="Color-Enhancement"></label>
+    <span  class="text-e"> Color Enhancement </span>
+
+</span>
+
+<span class="chekbox-item">
+
+<input id="Masking" type="checkbox" name="Masking" value="Masking" />
+
+    <label for="Masking"></label>
+    <span  class="text-e">  Masking</span>
+
+</span>
+
+<span class="chekbox-item">
+
+    <input id="Shadow-reflection" type="checkbox" name="Shadow-reflection" value="Shadow and reflection" />
+    <label for="Shadow-reflection"></label>
+
+    <span  class="text-e"> Shadow/reflection </span>
+    </span>
+    </span>
+        </span>
+</div>
+   </div>
+   <div class="col-sm-6">
+       <div class="form-group">
+           <span class="label-text">How many Images do you edit ?</span>
+      <span class="wpcf7-form-control-wrap menu-536">
+         <select name="HowmanyImages" class="js-select2" aria-invalid="false">
+            <option value="----">Choose Category</option>
+            <option value="1-100">1-100</option>
+            <option value="100-500">100-500</option>
+            <option value="500-5000">500-5000</option>
+            <option value="5000-10000">5000-10000</option>
+            <option value="MORE THAN 10000">MORE THAN 10000</option>
+         </select>
+      </span>
+       </div>
+   </div>
+   <div class="col-sm-6">
+       <div class="form-group">
+           <span class="label-text">How often do you edit product images?</span>
+      <span class="wpcf7-form-control-wrap menu-640">
+         <select name="Howoftendoyouedit" class="js-select2" aria-invalid="false">
+            <option value="----">Choose Category</option>
+            <option value="Annually">Annually</option>
+            <option value="Semi-Annually">Semi-Annually</option>
+            <option value="Quarterly">Quarterly</option>
+            <option value="Monthly">Monthly</option>
+            <option value="Weekly">Weekly</option>
+            <option value="Daily">Daily</option>
+            <option value="One-time batch">One-time batch</option>
+         </select>
+      </span>
+       </div>
+   </div>
+   <div class="col-sm-6">
+       <div class="form-group">
+           <span class="label-text">What is the main product category you work with?</span>
+      <span class="wpcf7-form-control-wrap menu-310">
+         <select name="Whatisthemain" class="js-select2" aria-invalid="false">
+            <option value="----">Choose Category</option>
+            <option value="Apparel">Apparel</option>
+            <option value="Accessories">Accessories</option>
+            <option value="Automotive">Automotive</option>
+            <option value="Cosmetics/Health/Beauty">Cosmetics/Health/Beauty</option>
+            <option value="Footwear">Footwear</option>
+            <option value="Grocery">Grocery</option>
+            <option value="Furniture">Furniture</option>
+            <option value="Home Decor">Home Decor</option>
+            <option value="Jewelry">Jewelry</option>
+            <option value="Other">Other</option>
+         </select>
+      </span>
+       </div>
+   </div>
+   <div class="col-sm-6">
+       <div class="form-group">
+           <span class="label-text">What is your biggest challenge when it comes to product images?</span>
+      <span class="wpcf7-form-control-wrap menu-237">
+         <select name="Whatisyour" class="js-select2" aria-invalid="false">
+            <option value="----">Choose Category</option>
+            <option value="Reducing costs">Reducing costs</option>
+            <option value="Producing high quality images">Producing high quality images</option>
+            <option value="Removing post-production">Removing post-production</option>
+            <option value="Improving time-to-market">Improving time-to-market</option>
+            <option value="Scaling post-production">Scaling post-production</option>
+            <option value="Freeing up creative resources">Freeing up creative resources</option>
+            <option value="Finding a reliable post-production vendor">Finding a reliable post-production vendor</option>
+         </select>
+      </span>
+       </div>
+   </div>
+    <div class="col-sm-12">
+        <div class="form-group">
+            <span class="label-text"> Subject (required)</span>
+      <span class="wpcf7-form-control-wrap text-446"><input type="text" name="subject" value="" size="40" class="form-control"/></span>
+   </div>
+   <div class="col-sm-12 free-pad-0"> <span class="wpcf7-form-control-wrap contact-message">
+       <textarea name="message" class="form-control" rows="5" id="comment" placeholder="Comment"></textarea></span> </div>
+   <div class="col span_12">
+
+    
+
+
+      <span >
+
+          <input type="file" name="my_files[]" multiple size="40" class="free-pad-0" accept=".jpeg,.psd,.tiff,.png,.ai,.eps,.jpg,.zip,.rar" aria-invalid="false" />
+
+       </span>
+
+
+
+
+        </div>
+   </div>
+   <div class="col span_12">
+       <div class="free-submit">
+       <input type="submit" value="Send message" class="btn btn-danger" />
+       </div>
+    </div>
+   <div class="wpcf7-response-output wpcf7-display-none"></div>
+</form>
+
+                </div>
+
+
+            </div>
+            </div>
+
+        </div>
+
+    <!--/ajax-content-wrap-->
+
+
+
+
+
+
+
+  
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+ 
+<!--End of Tawk.to Script-->
+</body>
+
+</html>
